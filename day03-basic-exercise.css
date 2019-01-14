@@ -11,11 +11,29 @@
 	transition-duration: 5s;
 	transition-timing-function: ease-in-out;
 	transition-delay: 2s;
+
 }
 #link1:hover {
-	transform: rotate(180deg);
-	font-size: 100pt;
-	
+	transform: rotate(360deg);
+	font-size: 20pt;
+	transition: all 1s ease-in-out;
+}
+
+
+#link1 a:hover{
+color: blue;
+}
+
+#link2{
+	transition-timing-function: ease-in-out;
+
+}
+
+#link2:hover{
+	background-color: yellow;
+	padding: 200px;
+	border-radius: 50px;
+	transition: all 2s ease-in-out;
 }
 
 .container h1{
@@ -39,7 +57,7 @@
 .container a{
 	
 text-decoration: none;
-color: red;
+color: black;
 }
 
 
