@@ -5,9 +5,20 @@
 	
 
 }
+#logo{
+	
+	transition: all 1s ease-in-out;
+}
+
+#logo:hover{
+	transform: scale(2, 2);
+	transition: all 1s ease-in-out;
+	
+	
+}
 
 #link1{
-	transition-property: height;
+	
 	transition-duration: 5s;
 	transition-timing-function: ease-in-out;
 	transition-delay: 2s;
@@ -21,7 +32,7 @@
 
 
 #link1 a:hover{
-color: blue;
+color: red;
 }
 
 #link2{
@@ -43,7 +54,7 @@ color: blue;
 
 
 
-#link3 {
+#link3 {		
 	transition-timing-function:  ease-in;
 }
 
@@ -56,8 +67,33 @@ color: blue;
 }
 
 #link3 a:hover {
-	color: brown;
+	color: blue;
 }
+
+
+
+
+
+#link4:hover{
+
+transform: rotate3d(25, 25, 20, 360deg);
+transition: all 4s ease-in-out;
+font-size: 20pt;
+transition-timing-function: ease-in-out;
+}
+
+
+
+.Generallinks .link:hover{
+	transition-timing-function: ease-in-out;
+	transition-duration: 1s;
+	text-decoration: none;
+	font-size: 20pt;
+	
+}
+
+
+
 
 .container  ul{
 
