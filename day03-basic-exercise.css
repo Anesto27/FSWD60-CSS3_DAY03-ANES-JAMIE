@@ -1,0 +1,49 @@
+.container{
+	width: 100%;
+	height: 100%;
+	background-color: lightgrey;
+	
+
+}
+
+#link1{
+	transition-property: height;
+	transition-duration: 5s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 2s;
+}
+#link1:hover {
+	transform: rotate(180deg);
+	font-size: 100pt;
+	
+}
+
+.container h1{
+	text-align: center;
+	color: blue;
+}
+
+.container  ul{
+
+	
+	list-style: none;
+	display: flex;
+	flex-flow:row;
+	justify-content: center;
+	justify-content: space-around;
+
+
+
+}
+
+.container a{
+	
+text-decoration: none;
+color: red;
+}
+
+
+
+#link1{
+	
+}
